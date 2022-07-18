@@ -1,12 +1,10 @@
-package main 
+package main
 
 import "fmt"
 
 func main() {
-	fmt.Println("Hello World")
+	var name string
 
-	var name string = "Tom"
-
-	fmt.Println(name)
+	fmt.Scan(&name)
+	fmt.Printf("Hello %v", name)
 }
-
